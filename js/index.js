@@ -29,7 +29,7 @@ function calculateAll() {
   
   // ITERATION 3
   //... your code goes here
-  let totalValue = document.getElementById('total-value');
+  let totalValue = document.querySelector('#total-value span');
   //let finalTotal = 0;
   // finalTotal = totalValue.innerHTML + updateSubtotal(allProduct[i]);
   totalValue.innerHTML = total
@@ -42,6 +42,7 @@ function removeProduct(event) {
   const target = event.currentTarget;
   console.log('The target in remove is:', target);
   //... your code goes here
+  
 }
 
 // ITERATION 5
