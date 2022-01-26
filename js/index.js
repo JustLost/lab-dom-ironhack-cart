@@ -101,7 +101,7 @@ function createProduct() {
   parent.innerHTML += concatRow; */
 
   const removeBtn = newRow.querySelector('.btn-remove');
-  removeBtn.addEventListener('click', removeProduct);
+  removeBtn.addEventListener('click', removeProduct); 
 
   newProduct.value = '';
   newPrice.value = 0;
