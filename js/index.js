@@ -82,7 +82,6 @@ function createProduct() {
 
   let parent = document.querySelector('#cart tbody');
   parent.appendChild(newRow);
-
   //By concatenating the innerHtml of the parent
   /*   let concatRow = `<tr class="product">
   <td class="name">
